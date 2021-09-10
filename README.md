@@ -1,5 +1,7 @@
 ## DCKAP Assignment 2021
 
+## Please follow the steps in order to install demo without any errors.
+
 ## Steps for Installation: 
 - Copy ```env.example``` to ```.env``` file and change database name and credentials.
 - Also copy paste the ```GOOGLE_CLIENT_ID``` and ```GOOGLE_CLIENT_SECRET``` in the env file. Keys are provided in the mail (IMP for google login)
