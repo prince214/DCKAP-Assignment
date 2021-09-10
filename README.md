@@ -9,5 +9,7 @@
 - Run ```php artisan migrate```
 - Run ```php artisan db:seed``` (Run this cmd to fill countries and cities table in database)
 - Run ```npm install```
-- Run ```npm dev run```
+- Run ```npm run dev```
 - Run ```php artisan serve```
+
+###Note: There is no need to import external database because i have made migration for every table and also provided database seeds. But just in case anything goes wrong i have provided the ```database.zip``` file in the git itself
