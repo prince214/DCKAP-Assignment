@@ -12,4 +12,4 @@
 - Run ```npm run dev```
 - Run ```php artisan serve```
 
-###Note: There is no need to import external database because i have made migration for every table and also provided database seeds. But just in case anything goes wrong i have provided the ```database.zip``` file in the git itself
+### Note: There is no need to import external database because i have made migration for every table and also provided database seeds. But just in case anything goes wrong i have provided the ```database.zip``` file in the git itself
