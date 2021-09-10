@@ -7,6 +7,7 @@
 - Run ```composer install```
 - Run ```php artisan key:generate```
 - Run ```php artisan migrate```
+- Run ```php artisan db:seed``` (Run this cmd to fill countries and cities table in database)
 - Run ```npm install```
 - Run ```npm dev run```
 - Run ```php artisan serve```
