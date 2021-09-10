@@ -26,6 +26,8 @@ Auth::routes();
 Route::get('/google', [SocialLoginController::class, 'redirectToGoogle'])->name('google.login');
 Route::get('/google/callback', [SocialLoginController::class, 'googleCallback'])->name('google.callback');
 
+Route::group(['middleware' => ['auth']], function () {
+    Route::resource('users', UserController::class);
+    Route::get('/getCities/{cid}', [CountriesAndCityController::class, 'getCities'])->name('get.cities');
+});
 
-Route::resource('users', UserController::class);
-Route::get('/getCities/{cid}', [CountriesAndCityController::class, 'getCities'])->name('get.cities');
